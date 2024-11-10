@@ -1,0 +1,20 @@
+{
+  "id": 10,
+  "title": "Classic Blue Baseball Cap",
+  "price": 86,
+  "description": "Top off your casual look with our Classic Blue Baseball Cap, made from high-quality materials for lasting comfort. Featuring a timeless six-panel design with a pre-curved visor, this adjustable cap offers both style and practicality for everyday wear.",
+  "images": [
+    "https://i.imgur.com/wXuQ7bm.jpeg",
+    "https://i.imgur.com/BZrIEmb.jpeg",
+    "https://i.imgur.com/KcT6BE0.jpeg"
+  ],
+  "creationAt": "2024-11-10T02:09:14.000Z",
+  "updatedAt": "2024-11-10T02:09:14.000Z",
+  "category": {
+    "id": 1,
+    "name": "Clothes",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "creationAt": "2024-11-10T02:09:14.000Z",
+    "updatedAt": "2024-11-10T02:09:14.000Z"
+  }
+}

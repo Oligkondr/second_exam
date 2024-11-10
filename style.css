@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9eefd;
+}
+
+.hide {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pagesName {
+    display: flex;
+    list-style-type: none;
+    font-size: 25px;
+    cursor: pointer
+}
+
+.pagesName li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    background-color: #9ab5d5;
+    color: grey;
+}
+
+.allPages {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /*background-color: white;*/
+    /*margin-right: 100px;*/
+    /*margin-left: 100px;*/
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.card_image {
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-around;
+}
+
+.page {
+    background-color: white;
+    padding: 30px;
+}
+
+.pageName {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.showBtn {
+    display: block;
+    margin: auto;
+}
+
+.selected {
+    color: black;
+}
